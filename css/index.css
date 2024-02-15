@@ -1,3 +1,31 @@
-h1 {
-    color: green;
+#navbarTogglerDemo01 {
+    display: flex !important;
+    justify-content: center;
+}
+
+
+#section1 {
+    background-image: url("/assets/bg-3.jpg");
+    height: 95vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto 100%; /* Maintain the original image aspect ratio, and ensure it covers the height */
+    background-position:  right center,left center; /* Position the background to the left and right */
+}
+
+
+#info-section {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+.custom-width-search {
+    width: 300px;
+    height: 40px;
+}
+
+.sign-up-link {
+    margin-left: 10px;
+    padding: 10px;
 }
